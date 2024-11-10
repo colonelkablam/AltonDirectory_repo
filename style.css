@@ -1,0 +1,87 @@
+/* style.css */
+.container {
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .activities {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  
+  .card {
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .card-description {
+    color: #666;
+  }
+  
+  .card-details {
+    margin-top: 10px;
+  }
+
+  .card-cost {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #19963f;
+  }
+  
+  
+  .detail {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+  }
+  
+  .icon {
+    width: 16px;
+    height: 16px;
+  }
+
+  /* Filter button styles */
+.filter-section {
+    margin-bottom: 10px;
+  }
+  
+  .filter-button {
+    padding: 8px 12px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .filter-button.active {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+  }
+  
